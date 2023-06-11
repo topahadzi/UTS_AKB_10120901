@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UTS_AKB_10120901</string>
+    <string name="title_home">Home</string>
+    <string name="title_daily_activity">Daily Activity</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_music">Music</string>
+    <string name="title_profile">Profile</string>
+    <string name="skip">Skip</string>
+    <string name="previous">Previous</string>
+    <string name="next">Selanjutnya</string>
+    <string name="start">Start</string>
+</resources>

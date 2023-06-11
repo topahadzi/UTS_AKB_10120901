@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/profile_view"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/radius_home"
+        android:backgroundTint="@color/blue_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="@id/profile_view"
+        app:layout_constraintEnd_toEndOf="@id/profile_view"
+        app:layout_constraintTop_toTopOf="@id/profile_view" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="60dp"
+        android:text="Mustapha Hadzi"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/img_profile"
+        app:layout_constraintEnd_toStartOf="@id/img_profile"
+        app:layout_constraintStart_toStartOf="@id/profile_view"
+        app:layout_constraintTop_toTopOf="@id/img_profile" />
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="Devops Engineer"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <TextView
+        android:id="@+id/old"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="21 Yeas Old"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/job" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="Bandung, Jawa Barat, Indonesia"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/old" />
+
+    <View
+        android:id="@+id/social_view"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/radius_home"
+        android:backgroundTint="@color/blue_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_view" />
+
+    <TextView
+        android:id="@+id/social_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp"
+        android:text="Connect With Me:"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/social_view"
+        app:layout_constraintStart_toStartOf="@id/social_view"
+        app:layout_constraintTop_toTopOf="@id/social_view" />
+
+    <ImageButton
+        android:id="@+id/waicon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:onClick="onImageButtonClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/wa"
+        app:layout_constraintStart_toStartOf="@id/social_text"
+        app:layout_constraintTop_toBottomOf="@id/social_text" />
+
+    <ImageButton
+        android:id="@+id/igicon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:onClick="onImageButtonClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/ig"
+        app:layout_constraintStart_toEndOf="@id/waicon"
+        app:layout_constraintTop_toBottomOf="@id/social_text" />
+
+    <ImageButton
+        android:id="@+id/emailicon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:onClick="onImageButtonClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/email"
+        app:layout_constraintStart_toEndOf="@id/igicon"
+        app:layout_constraintTop_toBottomOf="@id/social_text" />
+
+    <ImageButton
+        android:id="@+id/mapicon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:onClick="onImageButtonClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/location"
+        app:layout_constraintStart_toEndOf="@id/emailicon"
+        app:layout_constraintTop_toBottomOf="@id/social_text" />
+
+    <TextView
+        android:id="@+id/dialog_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTS_AKB_10120901"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/dialog_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dialog_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="v1.0.0"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
