@@ -9,7 +9,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.uts_akb_10120901.R
 import com.example.uts_akb_10120901.ui.music.MusicModel
 import com.example.uts_akb_10120901.databinding.ItemMusicBinding
-
+//Nama: Mustapha Hadzi
+//Kelas: IF-10
+//NIM: 10120901
+//Tanggal Pengerjaan: 11 Juni 2023
 
 class MusicAdapter : RecyclerView.Adapter<MusicAdapter.ViewHolder>() {
 

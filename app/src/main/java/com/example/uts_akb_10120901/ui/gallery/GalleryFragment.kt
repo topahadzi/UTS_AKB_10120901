@@ -6,7 +6,10 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uts_akb_10120901.R
 import com.example.uts_akb_10120901.ui.gallery.GalleryModel
-
+//Nama: Mustapha Hadzi
+//Kelas: IF-10
+//NIM: 10120901
+//Tanggal Pengerjaan: 11 Juni 2023
 class GalleryFragment : Fragment(R.layout.fragment_gallery) {
 
     private val galleryAdapter = GalleryAdapter()

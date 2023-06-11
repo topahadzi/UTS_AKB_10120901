@@ -6,7 +6,10 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uts_akb_10120901.R
 
-
+//Nama: Mustapha Hadzi
+//Kelas: IF-10
+//NIM: 10120901
+//Tanggal Pengerjaan: 11 Juni 2023
 
 class DailyActivityFragment : Fragment(R.layout.fragment_daily_activity) {
 

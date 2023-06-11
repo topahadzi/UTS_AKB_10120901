@@ -7,7 +7,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uts_akb_10120901.databinding.ItemFriendBinding
 
-
+//Nama: Mustapha Hadzi
+//Kelas: IF-10
+//NIM: 10120901
+//Tanggal Pengerjaan: 11 Juni 2023
 class FriendAdapter() : RecyclerView.Adapter<FriendAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

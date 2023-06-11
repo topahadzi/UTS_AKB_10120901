@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.uts_akb_10120901.ui.onboarding.OnBoardingThreeFragment
 import com.example.uts_akb_10120901.ui.onboarding.OnBoardingTwoFragment
-
+//Nama: Mustapha Hadzi
+//Kelas: IF-10
+//NIM: 10120901
+//Tanggal Pengerjaan: 11 Juni 2023
 class OnBoardingPagerAdapter constructor(activity: AppCompatActivity) : FragmentStateAdapter(activity) {
 
     private val pages = listOf(

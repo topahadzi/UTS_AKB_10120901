@@ -25,7 +25,7 @@ class MusicFragment : Fragment(R.layout.fragment_music) {
         val music = listOf(
             MusicModel(R.drawable.music_img_1, "Paradise", "Coldplay",R.raw.paradise),
             MusicModel(R.drawable.music_img_2, "Yellow", "Coldplay",R.raw.yellow),
-            MusicModel(R.drawable.music_img_2, "たぶん", "Yoasobi",R.raw.tabun),
+            MusicModel(R.drawable.music_img_3, "たぶん", "Yoasobi",R.raw.tabun),
         )
 
         val rvmusic = getView()?.findViewById<RecyclerView>(R.id.rvmusic)

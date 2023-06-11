@@ -8,7 +8,10 @@ import android.os.Looper
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.example.uts_akb_10120901.ui.onboarding.OnBoardingActivity
-
+//Nama: Mustapha Hadzi
+//Kelas: IF-10
+//NIM: 10120901
+//Tanggal Pengerjaan: 11 Juni 2023
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity: AppCompatActivity() {
 
